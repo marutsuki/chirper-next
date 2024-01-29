@@ -8,7 +8,7 @@ export type RouteConfig = {
  * Configuration for routes in the context of authentication.
  */
 export const defaultRouteConfig: RouteConfig = {
-    unauthenticatedPaths: ["/", "/login"],
+    unauthenticatedPaths: ["/", "/signin", "/signup"],
     defaultAuthenticatedPath: "/home",
-    defaultUnauthenticatedPath: "/login"
+    defaultUnauthenticatedPath: "/signin"
 }
